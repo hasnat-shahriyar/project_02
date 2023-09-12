@@ -1,0 +1,250 @@
+/* Common Style and Utility */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+::selection {
+    color: #FFFF;
+    background: #562eff;
+  }
+/* ---------------------------- */
+
+/* ----------------
+    Top Player Area 
+-----------------*/
+/* Top Player Container Area */
+.top-container{
+    width: 870px;   
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px 30px;
+}
+
+/* Title Name : Top Player */
+.section-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #562EFF;
+    margin-top: 3px;
+}
+/* Mother of Player */
+.top-player{
+    margin-bottom: 30px;
+}
+
+/* All Players */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+/* Individual Player */
+.player{
+    display: flex;
+    align-items: center;
+}
+
+/* Player Image */
+.player img{
+    cursor: pointer;
+    width: 56px;
+    height: 56px;
+}
+
+/* Player Name */
+.player-name{
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Horizontal Line */
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* ---------------------
+    Top Player Area Ends
+-----------------------*/
+
+
+/*------------------
+    Top Blogs Area 
+ ------------------*/
+.blog-container{
+
+}
+
+.topBlog-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+
+}
+
+.top-blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 25px;
+}
+
+.indvdl-blog{
+    display: flex;
+}
+
+.thumbnail{
+
+}
+.thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info{
+    margin-left: 15px;
+}
+
+.blog-title{
+    font-weight: 500;
+    font-size: 20px; 
+}
+
+.blog-author{
+    color: #9F9F9F;
+    font-weight: 400;
+    font-size: 15px;
+}
+.blog-author a{
+    color: #562EFF;
+    text-decoration: none;
+}
+/*----------------------
+    Top Blogs Area Ends
+ ---------------------*/
+
+/* ---------------------------- */
+
+ /*---------------------
+    Latest Courses Area 
+ ---------------------*/
+.course-section{
+    width: 870px;
+    height: 380px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.course-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 3px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    margin-top: 5%;
+
+}
+
+.indvdl-course{
+    width: 95%;
+    height: 106%;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5s cubic-bezier(0.95, 0.18, 0.27, 0.95);
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 8%);
+}
+.indvdl-course:hover{
+    transform: scale(1.1);
+}
+.course-thumbnail{
+
+}
+.course-thumbnail img{
+    width: 200px;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.course-info{
+
+}
+
+.course-name{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+.course-author{
+    font-size: 14.6913px;
+    line-height: 17px;
+    text-align: left;
+    margin-left: 5%;  
+}
+
+.course-author a{
+    color: #ED6B4F;
+    text-decoration: none;
+}
+
+.course-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.course-details span{
+    color: #A2A2A2;
+}
+
+.ratings{
+    text-align: center;
+    margin-left: 5%;
+}
+
+/* Font Awesome Star */
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;;
+}
+.fa-star.empty{
+    color: #AEAEAE;;
+}
+.course-duration{
+    background: #FFE4E8;
+    border-radius: 14.6913px;
+    padding: 5px 15px;
+    color: #FF4A60;
+    font-size: 14.6913px;
+    margin-right: 3%;
+}
+ /*---------------------
+    Latest Courses Area 
+ ---------------------*/
+
+ /* ------------------ */
+
+  /*---------------------
+    Media Queries 
+ ---------------------*/
+ @media only screen and (max-width:500px) {
+
+
+    
+  /*---------------------
+    Media Queries Ends
+ ---------------------*/
+ 
